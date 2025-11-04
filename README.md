@@ -10,11 +10,20 @@ It provides REST APIs for player data, team stats, and analytics, built using **
 
 ```
 soccer_stats_dashboard/
-├── backend/          # Django project files (settings, urls, etc.)
-├── manage.py         # Django management script
-├── requirements.txt  # Python dependencies
+├── backend/              # Django backend
+├── frontend/             # React frontend (Vite project)
+│   ├── src/
+│   │   ├── App.tsx
+│   │   ├── main.tsx
+│   │   └── styles/
+│   │       └── GlobalStyle.ts
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── vite.config.ts
+├── manage.py             # Django management script
+├── requirements.txt      # Python dependencies
 ├── .gitignore
-└── .venv/            # Local virtual environment (excluded from Git)
+└── .venv/                # Local virtual environment (excluded from Git)
 ```
 
 ---
@@ -151,11 +160,15 @@ You can test if the backend API works correctly by visiting:
 
 ---
 
-## 💻 9️⃣ Frontend Setup
+## 🎨 9️⃣ Frontend Setup (Vite + React + TypeScript + Styled-Components)
 
-The frontend is built using Vite, React, TypeScript, and styled-components.
+The frontend is built using **Vite**, **React**, **TypeScript**, and **styled-components**.
+
 It connects to the Django backend to display player and team analytics.
 
+### 📁 Project Structure
+
+```
 soccer_stats_dashboard/
 ├── backend/              # Django backend
 ├── frontend/             # React frontend (Vite project)
@@ -169,25 +182,42 @@ soccer_stats_dashboard/
 │   └── vite.config.ts
 ├── manage.py
 └── requirements.txt
+```
 
-- ⚙️ 1️⃣ Move into the Frontend Folder
+### ⚙️ 1️⃣ Move into the Frontend Folder
+
+```bash
 cd frontend
+```
 
-- 📦 2️⃣ Install Dependencies
+### 📦 2️⃣ Install Dependencies
 
-Make sure Node.js (v18+) and npm are installed.
+Make sure **Node.js (v18+)** and **npm** are installed.
 
+```bash
 npm install
+```
 
-- 💅 3️⃣ Install Styled Components
+### 💅 3️⃣ Install Styled Components
+
+```bash
 npm install styled-components
 npm install --save-dev @types/styled-components
+```
 
-- 🧹 4️⃣ Clean the Default Template
+### 🧹 4️⃣ Clean the Default Template
 
-You can safely delete these default files (they’re just placeholders):
+You can safely delete these default files (they're just placeholders):
 
+```bash
 rm -rf src/assets src/App.css src/index.css
+```
+
+### 🚀 5️⃣ Run the Frontend Development Server
+
+```bash
+npm run dev
+```
 
 ## 🧠 Maintainer
 
