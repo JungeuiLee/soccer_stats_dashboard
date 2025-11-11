@@ -221,7 +221,7 @@ npm run dev
 
 ## 🧠 Maintainer
 
-**Jehoon Park**  
+**Jungeui Lee**  
 University of Minnesota Twin Cities  
 📧 `justicelee.dev@gmail.com`  
 💻 GitHub: [@JungeuiLee](https://github.com/JungeuiLee)
