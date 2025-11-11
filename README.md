@@ -31,7 +31,7 @@ soccer_stats_dashboard/
 ## ⚙️ 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/JehoonPark/soccer_stats_dashboard.git
+git clone https://github.com/JungeuiLee/soccer_stats_dashboard.git
 cd soccer_stats_dashboard
 ```
 
@@ -223,9 +223,7 @@ npm run dev
 
 **Jehoon Park**  
 University of Minnesota Twin Cities  
-📧 `jehoon.park0@gmail.com`  
-💻 GitHub: [@JehoonPark](https://github.com/Euljehoon)
+📧 `justicelee.dev@gmail.com`  
+💻 GitHub: [@JungeuiLee](https://github.com/JungeuiLee)
 
 ---
-
-✅ **Now you're ready to develop!**
